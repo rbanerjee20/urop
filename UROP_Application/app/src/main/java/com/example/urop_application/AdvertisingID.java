@@ -35,15 +35,11 @@ public class AdvertisingID extends AppCompatActivity {
 
     }
 
-
     public void startThread(View view) {
         ExampleThread thread = new ExampleThread(this);
         thread.start();
     }
 
-    public void stopThread(View view) {
-
-    }
 
     class ExampleThread extends Thread {
         private String id;
