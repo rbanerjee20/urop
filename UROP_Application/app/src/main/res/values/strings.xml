@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">UROP_Application</string>
+    <string name="advertising_id_button">AdvertisingID</string>
 </resources>
